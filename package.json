@@ -1,0 +1,48 @@
+{
+  "name": "handled-ds",
+  "version": "1.0.0",
+  "description": "a design system for handled",
+  "main": "index.js",
+  "dependencies": {
+    "babel-loader": "^8.0.6",
+    "react-jss": "^8.6.1",
+    "typescript": "^3.5.3"
+  },
+  "devDependencies": {
+    "@storybook/addon-actions": "^5.1.10",
+    "@storybook/addon-options": "^5.1.10",
+    "@storybook/react": "^5.1.10",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
+  },
+  "peerDependencies": {
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0"
+  },
+  "scripts": {
+    "build": "babel src -d lib",
+    "dev": "npm run storybook",
+    "docs": "npx styleguidist server",
+    "docs:build": "npx styleguidist build",
+    "storybook": "start-storybook -p 9001 -c .storybook",
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaredtheclark/design-system-tutorial.git"
+  },
+  "keywords": [
+    "design-system"
+  ],
+  "author": "Jared Clark",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jaredtheclark/design-system-tutorial/issues"
+  },
+  "homepage": "https://github.com/jaredtheclark/design-system-tutorial#readme"
+}
