@@ -12,7 +12,7 @@ addParameters({
      * URL for name in top left corner to link to
      * @type {String}
      */
-    url: "https://github.com/whoisryosuke",
+    url: "https://www.jared.works",
     /**
      * Show story component as full screen
      * @type {Boolean}
