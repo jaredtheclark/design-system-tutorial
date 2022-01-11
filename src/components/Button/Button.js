@@ -38,3 +38,5 @@ const Button = ({ classes, children }) => (
 
 // Export component with HOC to apply styles from above
 export default injectSheet(styles)(Button)
+
+//Testing a new commit from the Github UI
